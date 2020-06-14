@@ -26,10 +26,6 @@ h2 {
     margin-bottom: 12px;
 }
 
-
-
-
-
-#test2 {
-    margin-bottom: 3rem;
+.hidden {
+    display: none;
 }
