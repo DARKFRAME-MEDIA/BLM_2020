@@ -1,18 +1,40 @@
-<h1>DARKFRAME-MEDIA</h1>
+<!DOCTYPE html>
+<html lang="en">
 
-<p>First open this page in Safari or Google Chrome on Mobile to view in Augmented Reality </p>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DARKFRAME-MEDIA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 
-<p>
-    <a
-        href="intent://arvr.google.com/scene-viewer/1.0?file=https://github.com/DARKFRAME-MEDIA/BLM2020-Android/blob/master/BLM2020.glb?raw=true#Intent;scheme=https;package=com.google.android.googlequicksearchbox;action=android.intent.action.VIEW;S.browser_fallback_url=https://developers.google.com/ar;end;">
-        BLM Monument - Android Devices (click to load)
-    </a>
-</p>
+<body>
+    <header>
+        <h1>DARKFRAME-MEDIA</h1>
+    </header>
+    <div>
+        <h2>First open this page in Safari or Google Chrome on Mobile to view in Augmented Reality </h2>
+        <div id="links">
+            <div class="link" id="android">
+                <a
+                    href="intent://arvr.google.com/scene-viewer/1.0?file=https://github.com/DARKFRAME-MEDIA/BLM2020-Android/blob/master/BLM2020.glb?raw=true#Intent;scheme=https;package=com.google.android.googlequicksearchbox;action=android.intent.action.VIEW;S.browser_fallback_url=https://developers.google.com/ar;end;">
+                    BLM Monument - Android Devices (click to load)
+                </a>
+            </div>
+            <div class="link" id="ios">
+                <a rel="ar" href="example.usdz">
+                    <picture>
+                        <source srcset="https://github.com/DARKFRAME-MEDIA/BLM/blob/master/blm2020.usdz?raw=true">
+                        <img src="eg.png">
+                    </picture>
+                </a>
+                <!-- <a href="https://github.com/DARKFRAME-MEDIA/BLM/blob/master/blm2020.usdz?raw=true">
+                    BLM Monument - Apple Devices
+                    (click to load)
+                </a> -->
+            </div>
+        </div>
+    </div>
+</body>
 
-
-<p>
-    <a href="https://github.com/DARKFRAME-MEDIA/BLM/blob/master/blm2020.usdz?raw=true">
-        BLM Monument - Apple Devices
-        (click to load)
-    </a>
-</p>
+</html>
