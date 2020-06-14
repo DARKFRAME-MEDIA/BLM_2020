@@ -8,14 +8,14 @@
 
 body {
     margin: 0;
-    background-color: darkblue;
-    color: #fffdd0;
+    background-color: #393939;
+    color: #f4f4f4;
 }
 
 header {
     width: 100%;
-    color: #fffdd0;
-    background-color: steelblue;
+    color: #f4f4f4;
+    background-color: #161616;
 }
 
 h1 {
@@ -44,8 +44,8 @@ h2 {
     margin: auto;
     padding: 12px;
     border-radius: 2px;
-    color: #fffdd0;
-    background-color: steelblue;
+    color: #f4f4f4;
+    background-color: #161616;
 }
 
 .hidden {
