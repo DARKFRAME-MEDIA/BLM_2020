@@ -34,7 +34,8 @@ h2 {
     display: block;
     width: fit-content;
     margin: auto;
-    padding: 24px
+    padding: 24px;
+    max-width: 60%;
 }
 
 #monumentLink {
