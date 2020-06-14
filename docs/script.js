@@ -22,3 +22,5 @@ if (mobile) {
     document.getElementById('desktopRedirect').classList.remove('hidden');
 }
 
+
+document.getElementById('browserinfo').innerText = window.navigator.appVersion;
