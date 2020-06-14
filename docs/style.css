@@ -6,7 +6,21 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+body {
+    margin: 0;
+    background-color: darkblue;
+    color: #fffdd0;
+}
+
+header {
+    width: 100%;
+    color: #fffdd0;
+    background-color: steelblue;
+}
+
 h1 {
+    margin: 0;
+    padding: 16px 0 16px 0;
     text-align: center;
 }
 
@@ -16,14 +30,21 @@ h2 {
     font-weight: normal;
 }
 
-.link {
-    width: 50%;
+#monumentImage {
+    display: block;
+    width: fit-content;
     margin: auto;
-    text-align:  center;
+    padding: 24px
 }
 
-.link {
-    margin-bottom: 12px;
+#monumentLink {
+    display: block;
+    width: fit-content;
+    margin: auto;
+    padding: 12px;
+    border-radius: 2px;
+    color: #fffdd0;
+    background-color: steelblue;
 }
 
 .hidden {

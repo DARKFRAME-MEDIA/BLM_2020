@@ -2,7 +2,7 @@ const ANDROID_LINK = 'intent://arvr.google.com/scene-viewer/1.0?file=https://git
 const IOS_LINK = 'https://github.com/DARKFRAME-MEDIA/BLM/blob/master/blm2020.usdz?raw=true';
 
 
-let facebookBrowser = window.navigator.appVersion.includes('FB');
+let facebookBrowser = true;
 let ios = window.navigator.appVersion.includes('iPhone');
 let mobile = true;
 
