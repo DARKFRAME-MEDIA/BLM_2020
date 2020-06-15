@@ -87,6 +87,8 @@ h2 {
 #explanation {
     margin: auto;
     margin-top: 12px;
+    margin-bottom: 12px;
+
     text-align: center;
     width: 60%;
 }
