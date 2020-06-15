@@ -38,7 +38,7 @@ h2 {
 
 #monumentImage {
     display: block;
-    width: fit-content;
+    width: 500px;
     margin: auto;
     padding: 24px;
     max-width: 80%;
