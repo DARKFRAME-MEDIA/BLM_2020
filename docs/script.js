@@ -10,14 +10,15 @@ let mobile = true;
 
 if (mobile) {
     if (ios) {
-        if (facebookBrowser) {
-            document.getElementById('mobileRedirect').classList.remove('hidden');
-        } else {
-            document.getElementById('main').classList.remove('hidden');
-            document.getElementById('monumentLink').href = IOS_LINK;
-        }
+        document.getElementById('monumentLink').href = IOS_LINK;
+        // if (facebookBrowser) {
+        //     // document.getElementById('mobileRedirect').classList.remove('hidden');
+        // } else {
+        //     // document.getElementById('main').classList.remove('hidden');
+        //     document.getElementById('monumentLink').href = IOS_LINK;
+        // }
     } else {
-        document.getElementById('main').classList.remove('hidden');
+        // document.getElementById('main').classList.remove('hidden');
         document.getElementById('monumentLink').href = ANDROID_LINK;
     }
 } else {

@@ -84,6 +84,13 @@ h2 {
     padding-right: 6px;
 }
 
+#explanation {
+    margin: auto;
+    margin-top: 12px;
+    text-align: center;
+    width: 60%;
+}
+
 @font-face {
     font-family: 'cory';
     src: url('./font/Raleway/Raleway-Light.ttf');
