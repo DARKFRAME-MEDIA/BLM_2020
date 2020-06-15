@@ -36,6 +36,14 @@ h2 {
     font-weight: normal;
 }
 
+h3 {
+    margin: auto;
+    padding: 0 0 16px 0;
+    text-align: center;
+    width: 500px;
+    max-width: 80%;
+}
+
 #monumentImage {
     display: block;
     width: 500px;
