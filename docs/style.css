@@ -3,7 +3,7 @@
 }
 
 * {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'cory', Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -22,9 +22,15 @@ h1 {
     margin: 0;
     padding: 16px 0 16px 0;
     text-align: center;
+    font-weight: normal;
 }
 
 h2 {
+    width: 50%;
+    margin: auto;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    line-height: 18px;
     text-align: center;
     font-size: medium;
     font-weight: normal;
@@ -50,4 +56,24 @@ h2 {
 
 .hidden {
     display: none;
+}
+
+#browserinfo {
+    margin-top: 32px;
+}
+
+#copyUrlButton {
+    display: block;
+    width: 120px;
+    height: 40px;
+    margin: auto;
+    color: #f4f4f4;
+    background-color: #161616;
+    border-radius: 2px;
+    border: none;
+}
+
+@font-face {
+    font-family: 'cory';
+    src: url('./font/Raleway/Raleway-Light.ttf');
 }
