@@ -5,7 +5,7 @@ const checkmarkSVG = `<svg xmlns="http://www.w3.org/2000/svg" focusable="false" 
 
 
 let facebookBrowser = window.navigator.appVersion.includes('FB');
-let ios = window.navigator.appVersion.includes('iPhone');
+let ios = window.navigator.appVersion.includes('iPhone') || window.navigator.appVersion.includes('iPad');
 let mobile = true;
 
 if (mobile) {
