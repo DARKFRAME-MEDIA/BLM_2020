@@ -8,24 +8,24 @@ let facebookBrowser = window.navigator.appVersion.includes('FB');
 let ios = window.navigator.appVersion.includes('iPhone') || window.navigator.appVersion.includes('iPad');
 let mobile = true;
 
-if (mobile) {
-    if (ios) {
-        document.getElementById('monumentLink').href = IOS_LINK;
-        // if (facebookBrowser) {
-        //     // document.getElementById('mobileRedirect').classList.remove('hidden');
-        // } else {
-        //     // document.getElementById('main').classList.remove('hidden');
-        //     document.getElementById('monumentLink').href = IOS_LINK;
-        // }
-    } else {
-        // document.getElementById('main').classList.remove('hidden');
-        document.getElementById('monumentLink').href = ANDROID_LINK;
-    }
-} else {
-    document.getElementById('desktopRedirect').classList.remove('hidden');
-}
+// if (mobile) {
+//     if (ios) {
+//         document.getElementById('monumentLink').href = IOS_LINK;
+//         // if (facebookBrowser) {
+//         //     // document.getElementById('mobileRedirect').classList.remove('hidden');
+//         // } else {
+//         //     // document.getElementById('main').classList.remove('hidden');
+//         //     document.getElementById('monumentLink').href = IOS_LINK;
+//         // }
+//     } else {
+//         // document.getElementById('main').classList.remove('hidden');
+//         document.getElementById('monumentLink').href = ANDROID_LINK;
+//     }
+// } else {
+//     document.getElementById('desktopRedirect').classList.remove('hidden');
+// }
 
-document.getElementById('browserinfo').innerText = window.navigator.appVersion;
+// document.getElementById('browserinfo').innerText = window.navigator.appVersion;
 
 
 document.getElementById('copyUrlButton').addEventListener('click', function (event) {
