@@ -6,6 +6,11 @@
     font-family: 'cory', Arial, Helvetica, sans-serif;
 }
 
+@font-face {
+    font-family: 'cory';
+    src: url('./font/Raleway/Raleway-Light.ttf');
+}
+
 body {
     margin: 0;
     background-color: #393939;
@@ -25,17 +30,6 @@ h1 {
     font-weight: normal;
 }
 
-h2 {
-    width: 50%;
-    margin: auto;
-    margin-top: 18px;
-    margin-bottom: 18px;
-    line-height: 18px;
-    text-align: center;
-    font-size: medium;
-    font-weight: normal;
-}
-
 h3 {
     margin: auto;
     padding: 0 0 16px 0;
@@ -44,30 +38,17 @@ h3 {
     max-width: 80%;
 }
 
-#monumentImage {
+.step {
     display: block;
-    width: 500px;
+    width: 75%;
+    max-width: 400px;
     margin: auto;
-    padding: 24px;
-    max-width: 80%;
+    margin-top: 12px;
+    margin-bottom: 12px;
 }
 
-#monumentLink {
-    display: block;
-    width: fit-content;
-    margin: auto;
-    padding: 12px;
-    border-radius: 2px;
-    color: #f4f4f4;
-    background-color: #161616;
-}
-
-.hidden {
-    display: none;
-}
-
-#browserinfo {
-    margin-top: 32px;
+.step:last-child {
+    margin-bottom: 0;
 }
 
 #copyUrlButton {
@@ -77,6 +58,7 @@ h3 {
     width: fit-content;
     height: 40px;
     margin: auto;
+    margin-top: 12px;
     color: #f4f4f4;
     background-color: #161616;
     border-radius: 2px;
@@ -92,16 +74,35 @@ h3 {
     padding-right: 6px;
 }
 
-#explanation {
-    margin: auto;
-    margin-top: 12px;
-    margin-bottom: 12px;
-
-    text-align: center;
-    width: 60%;
+#linksContainer {
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: fit-content;
 }
 
-@font-face {
-    font-family: 'cory';
-    src: url('./font/Raleway/Raleway-Light.ttf');
+.linkContainer {
+    background-color: #161616;
+    width: 40%;
+    padding: 12px;
+    border-radius: 2px;
+}
+.monumentLink {
+    display: block;
+    width: fit-content;
+    margin: auto;
+    font-size: 14px;
+    color: #f4f4f4;
+    text-align: center;
+    text-decoration: none;
+}
+
+#monumentImage {
+    display: block;
+    width: 500px;
+    margin: auto;
+    padding: 24px;
+    padding-top: 0;
+    max-width: 80%;
 }
