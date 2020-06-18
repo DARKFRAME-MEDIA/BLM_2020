@@ -41,6 +41,7 @@ h3 {
 .step {
     display: block;
     width: 75%;
+    max-width: 400px;
     margin: auto;
     margin-top: 12px;
     margin-bottom: 12px;
