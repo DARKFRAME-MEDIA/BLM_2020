@@ -15,48 +15,48 @@
     </header>
     <div>
         <div id="main">
-            <div id="explanation">
-                Copy the link to this page and paste into Safari or Chrome, then click below to download
+            <div id="instructionContainer">
+                <div id="step1" class="step">
+                    1. Click this button to copy the URL
+                    <button id="copyUrlButton">
+                        <span>Click here to Copy</span>
+                        <div id="copyIconContainer">
+                            <svg xmlns="http://www.w3.org/2000/svg" focusable="false"
+                                preserveAspectRatio="xMidYMid meet" fill="currentColor" width="32" height="32"
+                                viewBox="0 0 32 32" aria-hidden="true">
+                                <path
+                                    d="M28,10V28H10V10H28m0-2H10a2,2,0,0,0-2,2V28a2,2,0,0,0,2,2H28a2,2,0,0,0,2-2V10a2,2,0,0,0-2-2Z" />
+                                <path d="M4,18H2V4A2,2,0,0,1,4,2H18V4H4Z" />
+                                <title>Copy</title>
+                            </svg>
+                        </div>
+                    </button>
+                </div>
+                <div id="step2" class="step">
+                    2. Paste the link into Safari or Chrome
+                </div>
+                <div id="step3" class="step">
+                    3. Click the button below to open the Virtual Monument
+                    <div id="linksContainer">
+                        <div class="linkContainer">
+                            <a id="iosLink" class="monumentLink" href='https://github.com/DARKFRAME-MEDIA/BLM/blob/master/blm2020.usdz?raw=true'>
+                                iOS
+                            </a>
+                        </div>
+                        <div class="linkContainer">
+                            <a id="androidLink" class="monumentLink" href='intent://arvr.google.com/scene-viewer/1.0?file=https://github.com/DARKFRAME-MEDIA/BLM2020-Android/blob/master/BLM2020.glb?raw=true#Intent;scheme=https;package=com.google.android.googlequicksearchbox;action=android.intent.action.VIEW;S.browser_fallback_url=https://developers.google.com/ar;end;'>
+                                Android
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div id="monumentLinkContainer">
-                <div class="linkContainer">
-                    <a id="iosLink" class="monumentLink" href='https://github.com/DARKFRAME-MEDIA/BLM/blob/master/blm2020.usdz?raw=true'>
-                        iOS
-                    </a>
-                </div>
-                <div class="linkContainer">
-                    <a id="androidLink" class="monumentLink" href='intent://arvr.google.com/scene-viewer/1.0?file=https://github.com/DARKFRAME-MEDIA/BLM2020-Android/blob/master/BLM2020.glb?raw=true#Intent;scheme=https;package=com.google.android.googlequicksearchbox;action=android.intent.action.VIEW;S.browser_fallback_url=https://developers.google.com/ar;end;'>
-                        Android
-                    </a>
-                </div>
+            <div id="imageContainer">
                 <img id="monumentImage" src="clean-img.jpeg">
+                <h3><em>Photo by Bekah Brown</em></h3>
             </div>
-            <h3><em>Photo by Bekah Brown</em></h3>
-
-        </div>
-        <div id="mobileRedirect" class="hidden">
-            <h2>The virtual monument is not compatible with this browser. Please click below to copy this page's URL,
-                and paste it into Safari or Chrome</h2>
-            <button id="copyUrlButton">
-                <span>Click here to Copy</span>
-                <div id="copyIconContainer">
-                    <svg xmlns="http://www.w3.org/2000/svg" focusable="false" preserveAspectRatio="xMidYMid meet"
-                        fill="currentColor" width="32" height="32" viewBox="0 0 32 32" aria-hidden="true">
-                        <path
-                            d="M28,10V28H10V10H28m0-2H10a2,2,0,0,0-2,2V28a2,2,0,0,0,2,2H28a2,2,0,0,0,2-2V10a2,2,0,0,0-2-2Z" />
-                        <path d="M4,18H2V4A2,2,0,0,1,4,2H18V4H4Z" />
-                        <title>Copy</title>
-                    </svg>
-                </div>
-            </button>
-        </div>
-        <div id="desktopRedirect" class="hidden">
-            <h2>The virtual monument only works on mobile devices, please open this link on Safari or Chrome on your
-                Android or iOS device</h2>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
-
 </html>
-
-<script src="script.js"></script>
